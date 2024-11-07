@@ -5,7 +5,7 @@ from datetime import datetime
 import requests
 
 url = 'https://dictionary.yandex.net/api/v1/dicservice.json/lookup'
-token = 'dict.1.1.20240902T113519Z.ce641082ae0bc9aa.0380ec04addbcf76c23891db3870580399100ae0'
+token = 'you token'
 
 def logger(old_function):
     @wraps(old_function)
